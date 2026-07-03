@@ -1,0 +1,14 @@
+# Android Signing Configuration
+# Copy this file to signing.properties and fill in your values
+
+# Path to your keystore file (relative to android/ directory)
+KEY_STORE=../release.keystore
+
+# Password for the keystore
+KEY_STORE_PASSWORD=your_keystore_password_here
+
+# Alias of the key within the keystore
+KEY_ALIAS=toto-key
+
+# Password for the key
+KEY_PASSWORD=your_key_password_here
