@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.env
+.env.local
+.env.*.local
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# testing
+coverage/
+
+# production
+build/
